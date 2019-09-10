@@ -1,7 +1,7 @@
 
 
 
-public class Player {
+private class Player {
 
     int num_code;
     String player_name; 
@@ -27,6 +27,22 @@ public class Player_Cont extends as Player{
     
 }
 
+private class Mob {
+    
+    int att_stats;
+    int def_stats;
+    int spe_stats;
+    String Special;
+    boolean kill;
+    double Health;
+    
+}
+    
+public class Mobbie extends as Mob {
+    
+}
+
+// For implementing Solidity/Blockchain implementation
 void Player() {
 
     if (contract_approved) {
