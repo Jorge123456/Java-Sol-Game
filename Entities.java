@@ -1,7 +1,5 @@
 
-
-
-private class Player {
+protected class Player {
 
     int num_code;
     String player_name; 
@@ -17,17 +15,17 @@ private class Admin {
     int token;
     String admin_name;
     boolean admin_priv = true;
-    boolean contract = true;
+    boolean contract_a = true;
     
 }
 
-public class Player_Cont extends as Player{
+public class Player_Cont extends Player {
 
-    contract = true;
+   boolean contract_p = true;
     
 }
 
-private class Mob {
+protected class Mob {
     
     int att_stats;
     int def_stats;
@@ -38,14 +36,16 @@ private class Mob {
     
 }
     
-public class Mobbie extends as Mob {
+public class Mobbie extends Mob {
     
+    int level;
+    String environment; 
 }
 
-// For implementing Solidity/Blockchain implementation
+/* For implementing Solidity/Blockchain implementation
 void Player() {
 
     if (contract_approved) {
         Player_Cont = Player();
     }
-}
+}*/
