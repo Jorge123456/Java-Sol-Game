@@ -16,3 +16,6 @@ private class Contract_Player extends Contract {
     String identifier_tokenP;
     
 }
+
+//Solidity EVM?
+
