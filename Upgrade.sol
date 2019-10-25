@@ -5,9 +5,10 @@ Contract Upgrade {
   int serialNumber;
   string type;
   bool active;
-
+  int duration;
 }
 
+//to be implemented after structures are defined 
 address public owner;
 
     constructor() public{
